@@ -1,0 +1,303 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Gestor de Opiniones",
+    "dateExported": "2024-03-01T17:44:25.478Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "3a56ae78-786d-4f75-aa5d-d637a6536368",
+            "name": "publication",
+            "containerId": "",
+            "created": "2024-03-01T01:57:58.084Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "23f7d602-e286-4d0f-a9a2-b611d41aaa87",
+            "name": "comment",
+            "containerId": "",
+            "created": "2024-03-01T05:13:33.711Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "abd65bbb-8574-4920-a5f8-05600cb53b98",
+            "name": "user",
+            "containerId": "",
+            "created": "2024-02-29T22:50:30.825Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "da1e81b9-7f2f-43c5-9140-5a36afa97b72",
+            "colId": "ef33e556-446b-41f0-b1d3-7a731292dec1",
+            "containerId": "abd65bbb-8574-4920-a5f8-05600cb53b98",
+            "name": "test",
+            "url": "test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-29T22:51:15.564Z",
+            "modified": "2024-02-29T22:52:00.066Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2825c747-e8d9-4743-8b32-b0a16b37b1fc",
+            "colId": "ef33e556-446b-41f0-b1d3-7a731292dec1",
+            "containerId": "abd65bbb-8574-4920-a5f8-05600cb53b98",
+            "name": "register",
+            "url": "register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-29T23:21:26.340Z",
+            "modified": "2024-03-01T17:43:42.996Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Miguel"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Rodriguez"
+                    },
+                    {
+                        "name": "username",
+                        "value": "mrodriguez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "user@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7ac06618-ea16-429e-b21a-7f6894c3ab73",
+            "colId": "ef33e556-446b-41f0-b1d3-7a731292dec1",
+            "containerId": "abd65bbb-8574-4920-a5f8-05600cb53b98",
+            "name": "login",
+            "url": "login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-29T23:37:05.022Z",
+            "modified": "2024-03-01T17:44:08.278Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "mrodriguez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "user@gmail.com",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "46e319e5-79c6-4438-a29d-7e16fc78d354",
+            "colId": "ef33e556-446b-41f0-b1d3-7a731292dec1",
+            "containerId": "abd65bbb-8574-4920-a5f8-05600cb53b98",
+            "name": "update",
+            "url": "update/65e113a74ca559b205d2b4ec",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-02-29T23:57:37.919Z",
+            "modified": "2024-03-01T17:44:17.712Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Jose"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "oldPassword",
+                        "value": "87654321",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "29d5a94c-7eab-46d8-9a6a-811d983618c9",
+            "colId": "ef33e556-446b-41f0-b1d3-7a731292dec1",
+            "containerId": "3a56ae78-786d-4f75-aa5d-d637a6536368",
+            "name": "newPublication",
+            "url": "newPublication",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-01T01:58:15.393Z",
+            "modified": "2024-03-01T17:41:28.389Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "El calentamiento gloval realmente un problema?"
+                    },
+                    {
+                        "name": "category",
+                        "value": "Medio Ambiente"
+                    },
+                    {
+                        "name": "text",
+                        "value": "Es el aumento a largo plazo de la temperatura atmosférica media del sistema climático de la Tierra debido a la intensificación del efecto invernadero. Es un aspecto primordial del cambio climático actual, demostrado por la medición directa de la temperatura, el registro de temperaturas del último milenio y de varios efectos del calentamiento global ya visibles."
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "625ba8dc-2161-470a-9e65-4353d2475cdb",
+            "colId": "ef33e556-446b-41f0-b1d3-7a731292dec1",
+            "containerId": "3a56ae78-786d-4f75-aa5d-d637a6536368",
+            "name": "updatePublication",
+            "url": "updatePublication/65e15f3f6c92f47c76f677a6",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-03-01T04:24:08.879Z",
+            "modified": "2024-03-01T17:41:51.060Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "category",
+                        "value": "Ambiente"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a8858c05-421e-455b-9da7-12b345e26a46",
+            "colId": "ef33e556-446b-41f0-b1d3-7a731292dec1",
+            "containerId": "3a56ae78-786d-4f75-aa5d-d637a6536368",
+            "name": "deletePublication",
+            "url": "deletePublication/65e1370327f007db4b65ae88",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-03-01T04:50:05.361Z",
+            "modified": "2024-03-01T04:51:40.460Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7ae3a646-a522-42e6-ba84-f0585bec0e0f",
+            "colId": "ef33e556-446b-41f0-b1d3-7a731292dec1",
+            "containerId": "23f7d602-e286-4d0f-a9a2-b611d41aaa87",
+            "name": "newComment",
+            "url": "newComment",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-03-01T05:13:48.271Z",
+            "modified": "2024-03-01T05:16:09.650Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "publication",
+                        "value": "65e15f3f6c92f47c76f677a6"
+                    },
+                    {
+                        "name": "text",
+                        "value": "La verdad yo tambien opino lo mismo."
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "144b1567-4a7a-484c-81a8-766dc74b375b",
+            "colId": "ef33e556-446b-41f0-b1d3-7a731292dec1",
+            "containerId": "23f7d602-e286-4d0f-a9a2-b611d41aaa87",
+            "name": "updateComment",
+            "url": "updateComment/65e165087a16f78a7585149e",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2024-03-01T05:22:25.898Z",
+            "modified": "2024-03-01T17:42:39.711Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "text",
+                        "value": "Me equivoque, no opino lo mismo."
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ea8572cb-2d57-4798-a04f-eb96ec30b580",
+            "colId": "ef33e556-446b-41f0-b1d3-7a731292dec1",
+            "containerId": "23f7d602-e286-4d0f-a9a2-b611d41aaa87",
+            "name": "deleteComment",
+            "url": "deleteComment/65e165087a16f78a7585149e",
+            "method": "DELETE",
+            "sortNum": 120000,
+            "created": "2024-03-01T05:28:03.392Z",
+            "modified": "2024-03-01T05:28:37.859Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "headers": [
+            {
+                "name": "authorization",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNjE2OTEyMjFmOGI2YWE3MDg3ZTUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImNhcmxvcyIsImlhdCI6MTcwOTMxMTAwOSwiZXhwIjoxNzA5MzIxODA5fQ.c-xYXFpMQbUm-8uHUKu1pY7ZC5kXTogTASEA0jWJcMM"
+            }
+        ],
+        "options": {
+            "baseUrl": "localhost:2661/"
+        }
+    }
+}
